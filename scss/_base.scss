@@ -1,0 +1,425 @@
+/* ------------------------------------------
+  HOME STYLES
+--------------------------------------------- */
+
+body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section,
+summary, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+// main {
+// 	-webkit-transform: translateZ(0);
+//   -moz-transform: translateZ(0);
+//   -ms-transform: translateZ(0);
+//   -o-transform: translateZ(0);
+//   transform: translateZ(0);
+//   -webkit-backface-visibility: hidden;
+//   backface-visibility: hidden;
+//   -webkit-transition: -webkit-transform 0.7s;
+//   -moz-transition: -moz-transform 0.7s;
+//   transition: transform 0.7s;
+//   -webkit-transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
+//   -moz-transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
+//   transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
+// }
+
+body {
+	-webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #2f2d2c;
+  background: #cabeb4;
+  background-image: url(../img/bricks.jpg);
+  font: normal 100%/1.4 sans-serif;
+  // font-family: 'Amatic SC', cursive;
+  // font-size: 25px;
+	section {
+		 // border-bottom: 1px solid #999; 
+		  text-align: center;
+		  padding: 100px 0px 0px;
+		  height: 200px;
+			h1 {
+				font-family: 'Yellowtail', cursive;
+				font-size: 45px;
+			}
+			p {
+				// font-family: 'Amatic SC', cursive;
+				font-size: 16px;
+		}
+	}
+	a {
+		color: #333735;
+	}
+	a:hover {
+		color:#936f4c;
+	}
+}
+
+.container {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+/* ------------------------------------------
+  INTRO STYLES
+--------------------------------------------- */
+
+
+#intro {
+	background-image: url('../img/tame-impala.jpg');
+	background-position: cover;
+	background-repeat: no-repeat;
+	// I have mixed feelings..
+	// background-attachment: fixed; 
+	// -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+ //  	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	section {
+		height: 800px;
+			h1 {
+			font-size: 175px;
+			display: inline;
+			color: #f0eeec;
+			font-family: 'Yellowtail', cursive;
+			text-shadow: -3px -2px 2px #2f2d2c;
+		}
+		p {
+			font-size: 60px;
+			color: #f0eeec;
+			font-family: 'Amatic SC', cursive;
+			text-shadow: -3px -2px 2px #2f2d2c;
+		}
+		i {
+			padding-top: 80px;
+			color: #f0eeec;
+			font-size: 45px;
+			 text-shadow: -3px -2px 2px #2f2d2c;
+		}
+	}
+}
+
+ i:hover {
+  animation: bounce 1s;
+  color:#936f4c;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 2000px) {
+	#intro { 
+		background-image: url('../img/bg-big.jpg');
+		background-position: cover;
+		background-repeat: no-repeat;
+	}
+
+	.container {
+		padding-right: 250px;
+		padding-left: 250px;
+	}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 628px) {
+	#intro {
+		section {
+		padding-top: 100px;
+		line-height: 100px;
+		h1 {
+			font-size: 100px;
+			margin-right: 10px;
+		}
+		p{
+			font-size:45px;
+		}
+		i {
+			padding-top: 5px;
+		}
+		}
+	}
+}
+@media only screen and (min-width: 421px) and (max-width: 628px) {
+	#intro {
+		background-image: url('../img/bg-small.jpg');
+		background-position: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 420px) {
+	#intro {
+		background-image: url('../img/bg-mobile.jpg');
+		background-position: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+
+/* ------------------------------------------
+  LISTEN UP STYLES
+--------------------------------------------- */
+
+.h1 {
+	margin-top: 20px;
+	h1 {
+		font-size: 60px;
+	}
+}
+
+.vinyl {
+		padding-left: 50px;
+		padding-right: 50px;
+}
+
+.vinyl img {
+	height: 250px;
+	width: 350px;
+}
+
+
+h1 {
+  		font-family: 'Yellowtail', cursive;
+  		text-align: center;
+  		font-size: 45px;
+  	}
+
+.listen {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	margin-top: -80px;
+	p {
+		padding: 0 50px 0px 50px;
+		text-align: left;
+		font-family: 'Philosopher', sans-serif;
+	}
+}
+
+
+
+@media only screen and (min-width: 841px) and (max-width: 960px) {
+	.vinyl img {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.listen p {
+		padding: 0 0px 0px 0px;
+	}
+}
+
+@media only screen and (min-width: 581px) and (max-width: 840px) {
+	.listen {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 580px) {
+	.listen {
+		flex-direction: column;
+		padding: 0 0px 0px 0px;
+		p{
+			padding: 0 0px 0px 0px;
+		}
+		img {
+			padding: 0 0px 0px 0px;
+		}
+	}
+	.vinyl img {
+	height:197px;
+	width: 275px;
+	margin-left: -50px;
+}
+	.spins {
+		padding-top: 25px;
+	}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 320px) {
+	.listen {
+		flex-direction: column;
+		height: 600px;
+		padding: 0 0px 0px 0px;
+		p{
+			padding: 0 0px 0px 0px;
+		}
+		img {
+			padding: 0 0px 0px 0px;
+		}
+	}
+	.vinyl img {
+	height:197px;
+	width: 275px;
+	margin-left: -70px;
+}
+	.spins {
+		padding-top: 25px;
+	}
+}
+
+
+/* ------------------------------------------
+  HOW? STYLES
+--------------------------------------------- */
+
+.how {
+	display: flex;
+	justify-content: space-around;
+	height: 400px;
+	padding-bottom: 50px;
+	border-bottom: double;
+}
+
+.times {
+	p {
+		text-align: left;
+		padding-left: 50px;
+		padding-right: 50px;
+		font-family: 'Philosopher', sans-serif;
+	}
+	ul {
+		font-family: 'Philosopher', sans-serif;
+		list-style: none;
+		text-align: left;
+		padding-left: 75px;
+		padding-top: 5px;
+	}
+	h4 {
+		font-size: 18px;
+	}
+}
+
+.love {
+	p {
+		text-align: left;
+		padding-left: 50px;
+		padding-right: 50px;
+		font-family: 'Philosopher', sans-serif;
+	}
+}
+
+@media only screen and (min-width: 581px) and (max-width: 840px) {
+	.how {
+		flex-direction: column;
+		padding-bottom: 150px;
+	}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 580px) {
+
+	.how {
+		flex-direction: column;
+		height: 750px;
+	}
+	.times {
+		margin-top: 50px;
+		p {
+		padding-left: 0px;
+		padding-right: 0px;
+		}
+		ul{
+			padding-left: 20px;
+		}
+	}
+	.love {
+		margin-top: 100px;
+		p {
+		padding-right: 0px;
+		padding-left: 0px;
+		}
+	}
+}
+
+/* ------------------------------------------
+  FOOTER STYLES
+--------------------------------------------- */
+
+.past {
+	h2 {
+		font-family: 'Philosopher', sans-serif;
+	}
+	p {
+		text-align: left;
+		padding-right: 50px;
+		padding-left: 50px;
+		font-family: 'Philosopher', sans-serif;
+	}
+	ul {
+		padding-top: 10px;
+		padding-left: 100px;
+		font-family: 'Philosopher', sans-serif;
+	}
+	li {
+		text-align: left;
+		padding-left: 5px;
+		list-style-type: n;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 580px) {
+	.past {
+		height: 500px;
+		p {
+		padding-right: 0px;
+		padding-left: 0px;
+		}
+		ul {
+		padding-top: 10px;
+		padding-left: 20px;
+	}
+}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 320px) {
+	.past {
+		height: 600px;
+		p {
+		padding-right: 0px;
+		padding-left: 0px;
+		}
+		ul {
+		padding-top: 10px;
+		padding-left: 20px;
+	}
+}
+}
+
+/* ------------------------------------------
+  FOOTER STYLES
+--------------------------------------------- */
+
+.foot {
+	display: flex;
+	justify-content: space-around;
+	height:100px;
+	background-color: #2f2d2c;
+	margin-top: 400px;
+	p {
+	color: #cabeb4;
+	text-align: left;
+	padding-top: 20px;
+	font-family: 'Philosopher', sans-serif;
+	}
+	a {
+		color: #cabeb4;
+		text-decoration: none;
+	}
+}
