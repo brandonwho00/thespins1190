@@ -289,6 +289,9 @@ h1 {
 }
 
 .times {
+	h1 {
+		padding-bottom: 20px;
+		}
 	p {
 		text-align: left;
 		padding-left: 50px;
@@ -308,6 +311,9 @@ h1 {
 }
 
 .love {
+	h1 {
+		padding-bottom: 20px;
+		}
 	p {
 		text-align: left;
 		padding-left: 50px;
@@ -353,8 +359,13 @@ h1 {
 --------------------------------------------- */
 
 .past {
+	height: 850px;
+	h1 {
+		padding-bottom: 15px;
+	}
 	h2 {
 		font-family: 'Philosopher', sans-serif;
+		padding-bottom: 20px;
 	}
 	p {
 		text-align: left;
@@ -376,7 +387,7 @@ h1 {
 
 @media only screen and (min-width: 321px) and (max-width: 580px) {
 	.past {
-		height: 500px;
+		height: 1350px;
 		p {
 		padding-right: 0px;
 		padding-left: 0px;
@@ -384,13 +395,14 @@ h1 {
 		ul {
 		padding-top: 10px;
 		padding-left: 20px;
+		padding-bottom: 40px;
 	}
 }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 320px) {
 	.past {
-		height: 600px;
+		height: 1700px;
 		p {
 		padding-right: 0px;
 		padding-left: 0px;
@@ -398,6 +410,7 @@ h1 {
 		ul {
 		padding-top: 10px;
 		padding-left: 20px;
+		padding-bottom: 40px;
 	}
 }
 }

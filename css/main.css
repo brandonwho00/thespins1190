@@ -246,6 +246,9 @@ h1 {
   border-bottom: double;
 }
 
+.times h1 {
+  padding-bottom: 20px;
+}
 .times p {
   text-align: left;
   padding-left: 50px;
@@ -263,6 +266,9 @@ h1 {
   font-size: 18px;
 }
 
+.love h1 {
+  padding-bottom: 20px;
+}
 .love p {
   text-align: left;
   padding-left: 50px;
@@ -304,8 +310,15 @@ h1 {
 /* ------------------------------------------
   FOOTER STYLES
 --------------------------------------------- */
+.past {
+  height: 850px;
+}
+.past h1 {
+  padding-bottom: 15px;
+}
 .past h2 {
   font-family: 'Philosopher', sans-serif;
+  padding-bottom: 20px;
 }
 .past p {
   text-align: left;
@@ -326,7 +339,7 @@ h1 {
 
 @media only screen and (min-width: 321px) and (max-width: 580px) {
   .past {
-    height: 500px;
+    height: 1350px;
   }
   .past p {
     padding-right: 0px;
@@ -335,11 +348,12 @@ h1 {
   .past ul {
     padding-top: 10px;
     padding-left: 20px;
+    padding-bottom: 40px;
   }
 }
 @media only screen and (min-width: 300px) and (max-width: 320px) {
   .past {
-    height: 600px;
+    height: 1700px;
   }
   .past p {
     padding-right: 0px;
@@ -348,6 +362,7 @@ h1 {
   .past ul {
     padding-top: 10px;
     padding-left: 20px;
+    padding-bottom: 40px;
   }
 }
 /* ------------------------------------------
